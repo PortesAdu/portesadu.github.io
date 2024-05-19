@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Time Piece</title>
+        <link rel="stylesheet" href="styles.css" />
+        <script src="store.js" async></script>
+    </head>
+    <body>
+        <header class="main-headerstore">
+            <nav class="main-nav nav">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="store.html">STORE</a></li>                  
+                </ul>
+            </nav>
+            <h1 class="store-name store-name-large">Time Piece</h1>
+        </header>
+		<br>
+		<h1><center>Featured</center></h1>
+		<br>
+<div class="slideshow-container">
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 3</div>
+    <img src="https://www.audemarspiguet.com/content/dam/ap/com/homepage/2024/john-mayer/image_code_HP_1920x1283.jpg.transform.apfw.jpg" style="width:100%;height:500px;object-fit: cover; ">
+    <div class="text">Audemars Piguet</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 3</div>
+    <img src="https://www.grand-seiko.com/us-en/-/media/Images/GlobalEn/GrandSeiko/Home/collections/Products/20240409_WW/SBGC275/SBGC275_top.jpg?mh=1000&mw=1500&hash=62116F6B26FEA77D570D23DEE4D415D4" style="width:100%;height:500px;object-fit: cover;">
+    <div class="text">Grand Seiko</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 3</div>
+    <img src="https://images.ctfassets.net/lym53uuylvg8/1Qv591MQzhGMRHcOo1p1zo/d6662402a8c7c9ec5fb952f5e69217dc/OSP-WC-Patek-Philippe-5740-9.jpg?fm=webp&w=1400&q=85" style="width:100%;height:500px;object-fit: cover;">">
+    <div class="text">Patek Phillipe</div>
+  </div>
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div>
+        <section class="container content-section">
+            <h2 class="section-header">MUSIC</h2>
+            <div class="shop-items">
+                <div class="shop-item">
+                    <span class="shop-item-title">Audemars Piguet Royal Oak Black Dial</span>
+                    <img class="shop-item-image" src="https://img.chrono24.com/images/uhren/25754319-1bczf4dwcsb01m6lj6ardsou-ExtraLarge.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$88900</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Audemars Piguet Royal Oak Chronograph 41mm Blue Dial</span>
+                    <img class="shop-item-image" src="https://luxurywatchesusa.com/wp-content/uploads/2024/05/AP-26320ST.OO_.1220ST.03-blue-stock-768x768.jpg.webp">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$45000.00</span>
+                        <button class="btn btn-primary shop-item-button"type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Patek Phlippe Golden Ellipse</span>
+                    <img class="shop-item-image" src="https://cdn.thewatchpages.com/app/uploads/2024/04/13203508/patek-philippe-golden-ellipse-57381r-001.jpeg?width=906">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$56118</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Patek Phillipe Grand Complications Alarm Travel Time</span>
+                    <img class="shop-item-image" src="https://cdn.thewatchpages.com/app/uploads/2024/04/13203326/patek-philippe-grand-complications-alarm-travel-time-5520rg-001.jpeg?width=906">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$242078</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container content-section">
+            <h2 class="section-header">CART</h2>
+            <div class="cart-row">
+                <span class="cart-item cart-header cart-column">ITEM</span>
+                <span class="cart-price cart-header cart-column">PRICE</span>
+                <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+            </div>
+            <div class="cart-items">
+            </div>
+            <div class="cart-total">
+                <strong class="cart-total-title">Total</strong>
+                <span class="cart-total-price">$0</span>
+            </div>
+            <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
+        </section>
+    </body>
+</html>
